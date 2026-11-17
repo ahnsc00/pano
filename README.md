@@ -11,8 +11,8 @@ pip install -r requirements.txt
 python reproduce.py --scenarios synthetic
 ```
 
-파레토 분포에서 생성한 보상으로 PANO와 CRTM의 선택 성능 비교.
-20개 seed에서 각각 100만 회 실행 후, 평균 누적 regret(최선의 선택 대비 기대보상 손실)을 그래프로 표시.
+파레토 분포에서 생성한 보상으로 PANO와 CRTM 성능 비교.
+20개 seed에서 각각 100만 회 실행 후, 평균 누적 regret 그래프.
 그래프: `results/paper/figures/` 저장. 수치: `results/paper/` 저장.
 
 ## 파일
